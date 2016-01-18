@@ -1,0 +1,1 @@
+# Sample standalone multi-module webapp based on  Spring MVC + Spring Security + Spring Data MongoDB + MongoDB

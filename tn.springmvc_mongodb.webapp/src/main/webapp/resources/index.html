@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+        <meta charset="UTF-8" />
+        <title>Login page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="author" content="Kamoun" />
+        <link rel="stylesheet" type="text/css" href="resources/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="resources/css/animate-custom.css" />
+
+    </head>
+    <body>
+        <div class="container">
+            
+            <header>
+                <h1>Se connecter a l'application <span> Charity</span></h1>
+			</header>
+            <section>				
+                <div id="container_demo" >
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                            <form  action="" autocomplete="on"> 
+                                <h1>Employé</h1> 
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u" > votre identifiant </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"> votre mot de passe </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+                                </p>
+                                
+                                <p class="login button"> 
+                                    <input type="submit" value="se connecter" /> 
+								</p>
+                                <p class="change_link">
+									vous étes l'administrateur ?
+									<a href="#toregister" class="to_register">Administrateur</a>
+								</p>
+                            </form>
+                        </div>
+
+                        <div id="register" class="animate form">
+                            <form  action="" autocomplete="on"> 
+                                <h1>Administrateur </h1> 
+                               <p> 
+                                    <label for="username" class="uname" data-icon="u" > votre identifiant </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"> votre mot de passe </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+                                </p>
+                                
+                                <p class="signin button"> 
+								<input type="submit" value="se connecter" /> 
+								</p>
+                                <p class="change_link">  
+									vous étes un employé ?
+									<a href="#tologin" class="to_register"> Employé </a>
+								</p>
+                            </form>
+                        </div>
+						
+                    </div>
+                </div>  
+            </section>
+        </div>
+
+    </body>
+
+</html>
